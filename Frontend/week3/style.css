@@ -1,0 +1,123 @@
+*{
+    position: relative;
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: 'LeferiPoint-WhiteA';
+}
+a{
+    text-decoration : none;
+    color:inherit;
+}
+hr{
+    border-top:0;
+}
+
+
+.nav{
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-weight: bold;
+    width: 800px;
+}
+
+.nav ul{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li{
+    list-style:none;
+    display: block;
+}
+
+
+
+.repre-box {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin:80px;
+}
+
+.introducing{
+    padding-top: 200px;
+    font-size: 150%;
+}
+
+.introducing div{
+    line-height: 100%;
+}
+
+.main-box{
+    width:650px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom:30px;
+}
+
+section{
+    width:400px;
+    margin-bottom: 100px;
+}
+
+.right-section{
+    align-self: flex-end;
+    text-align: right;
+}
+
+.float-wrap {
+    overflow:hidden;
+    margin-top: 10px;
+}
+
+.title-text-right {
+    width:270px;
+    float: left;
+}
+.title-text-left {
+    float: left;
+}
+
+.left-section{
+    align-self: flex-start;
+    text-align: left;
+}
+.year-text-right{
+    
+    float: right;
+}
+.year-text-left{
+    width:170px;
+    float: right;
+}
+
+.desc-text{
+    margin-right:130px;
+    font-size: 80%;
+    padding:0 3px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #d1d1d1;
+    padding: 20px;
+    font-size: 12px;
+    color: #3f3f3f;
+    font-weight: bold;
+}
+
+
+
+@font-face {
+    font-family: 'LeferiPoint-WhiteA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

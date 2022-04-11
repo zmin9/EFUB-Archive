@@ -1,2 +1,1 @@
-# EFUB
-2022 EFUB 2기 세미나
+# EFUB Archive
