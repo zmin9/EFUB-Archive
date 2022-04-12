@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EFUB-Archive/static/css/main.8eea75a3.css",
+    "main.js": "/EFUB-Archive/static/js/main.98fe577e.js",
+    "index.html": "/EFUB-Archive/index.html",
+    "main.8eea75a3.css.map": "/EFUB-Archive/static/css/main.8eea75a3.css.map",
+    "main.98fe577e.js.map": "/EFUB-Archive/static/js/main.98fe577e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eea75a3.css",
+    "static/js/main.98fe577e.js"
+  ]
+}
